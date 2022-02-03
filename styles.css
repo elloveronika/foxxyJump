@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+.mainbackground {
+  display: flex;
+  flex-direction: column;
+  background-color: deepskyblue;
+  height: 100vh;
+}
+.sky {
+  display: flex;
+  justify-content: space-around;
+  background-color: lightskyblue;
+  height: 80vh;
+  padding-top: 15%;
+}
+.cloud1,
+.cloud2 {
+  display: flex;
+  height: 10vh;
+  width: 20%;
+  border-radius: 50%;
+  /* border: solid blue 1rem; */
+  background-color: whitesmoke;
+}
+.ground {
+  background-color: forestgreen;
+  height: 20vh;
+}
+.fox {
+  background-color: tomato;
+  width: 15%;
+  height: 10vh;
+ 
+}
